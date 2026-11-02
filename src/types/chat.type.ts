@@ -1,5 +1,6 @@
 export type ChatType = {
-  id: number;
+  id: string;
+  senderId: string;
   sender: "me" | "other";
   text: string;
   timestamp: number;
